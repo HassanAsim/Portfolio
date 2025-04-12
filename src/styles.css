@@ -12,23 +12,49 @@
 .header-content {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 1rem 4rem;
+  padding: 1rem;
 }
 
 .header-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap;
+}
+
+.social-links, .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .social-links a, .nav-links a {
   color: white;
   text-decoration: none;
-  margin: 0 1rem;
+  white-space: nowrap;
 }
 
 .social-links a:hover, .nav-links a:hover {
   color: #0d6efd;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .header-content {
+    padding: 0.5rem;
+  }
+  
+  .social-links a {
+    font-size: 1.2rem;
+  }
+
+  .social-links, .nav-links {
+    gap: 0.5rem;
+  }
+
+  .nav-links {
+    font-size: 0.9rem;
+  }
 }
 
 /* Landing Section Styles */
