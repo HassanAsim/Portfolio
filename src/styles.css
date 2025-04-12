@@ -1,0 +1,135 @@
+/* Header Styles */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+  background-color: #18181b;
+}
+
+.header-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem 4rem;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-links a, .nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.social-links a:hover, .nav-links a:hover {
+  color: #0d6efd;
+}
+
+/* Landing Section Styles */
+.landing-section {
+  min-height: 100vh;
+  background-color: #2A4365;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.landing-content {
+  text-align: center;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+/* Projects Section Styles */
+.projects-section {
+  padding: 4rem 2rem;
+  background-color: #f8f9fa;
+}
+
+.project-card {
+  transition: transform 0.2s;
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card .card-footer {
+  background: none;
+  border: none;
+  padding: 1rem;
+}
+
+/* Contact Form Styles */
+.contact-section {
+  background-color: #512DA8;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+.contact-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  color: black;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.submit-button {
+  width: auto;
+  min-width: 150px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 0 auto;
+  display: block;
+}
+
+.form-error {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+/* Full Screen Section */
+.full-screen-section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Animated Text Styles */
+.animated-text {
+  color: #0d6efd;
+}
+
+.cursor {
+  display: inline-block;
+  margin-left: 3px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
