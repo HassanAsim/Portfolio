@@ -16,7 +16,7 @@ const projects = [
     description:
       "A web application for a gaming product that showcases features, specifications, and user reviews, providing an engaging platform for gamers to explore and purchase.",
     imageSrc: require("../images/photo2.png"),
-    url: "https://github.com/HassanAsim/"
+    url: "https://github.com/HassanAsim/Game-Store-App"
   },
   {
     title: "Face, Age and Gender Detection App",
