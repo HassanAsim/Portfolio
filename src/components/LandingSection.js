@@ -4,7 +4,7 @@ import '../styles.css';
 import avatarImage from '../images/avatar.jpg';
 
 const greeting = "Hello, I am Hassan!";
-const bio1 = "A Computer Science Student";
+const bio1 = "A Computer Science Graduate";
 const specializations = ["Web Development", "Mobile App Development", "AI Development"];
 
 const LandingSection = () => {
